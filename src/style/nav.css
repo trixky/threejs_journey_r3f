@@ -1,0 +1,26 @@
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px !important;
+    width: 25px;
+    height: 25px;
+    border: solid 1px black !important;
+    background-color: #f1f1f1;
+}
+
+a.active > li {
+    background-color: white;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}

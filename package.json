@@ -10,8 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "9.108",
+    "@react-three/fiber": "8.16",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1",
+    "three": "^0.166.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

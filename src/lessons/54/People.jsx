@@ -12,20 +12,18 @@ export default function People() {
     const response = await fetch("https://jsonplaceholder.typicode.com/users");
     const data = await response.json();
     setPeople(data);
-  }
+  };
 
-    useEffect(() => {
-        getPeople();
-    }, []);
+  useEffect(() => {
+    getPeople();
+  }, []);
 
   return (
     <>
       <h1>People</h1>
-      <ul>
-        {people.map((person, index) => (
-          <li key={person.id}>{person.name}</li>
-        ))}
-      </ul>
+      {people.map((person, index) => (
+        <p key={person.id}>{person.name}</p>
+      ))}
     </>
   );
 }
