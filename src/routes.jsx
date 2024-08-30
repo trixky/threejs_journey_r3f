@@ -7,6 +7,7 @@ import Lesson59 from "./lessons/59/Lesson";
 import Lesson60 from "./lessons/60/Lesson";
 import Lesson61 from "./lessons/61/Lesson";
 import Lesson62 from "./lessons/62/Lesson";
+import Lesson63 from "./lessons/63/Lesson";
 
 export default [
   // {
@@ -52,6 +53,11 @@ export default [
   {
     path: "62",
     element: <Lesson62 />,
+    finished: true,
+  },
+  {
+    path: "63",
+    element: <Lesson63 />,
     finished: true,
   },
 ];
