@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Lesson54 from "./lessons/54/Lesson";
+// import Lesson55 from "./lessons/55/Lesson";
 import Nav from "./nav";
 import routes from "./routes";
 
@@ -19,7 +19,7 @@ export default function Router() {
     >
       <Routes>
         <Route path="/" element={<Nav />}>
-          <Route path="/" element={<Lesson54 />} />
+          {/* <Route path="/" element={<Lesson55 />} /> */}
           {routes.map((route) => (
             <Route key={route.path} path={route.path} element={route.element} />
           ))}
