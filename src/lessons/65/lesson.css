@@ -1,0 +1,19 @@
+.r3f {
+    touch-action: none;
+}
+
+.htmlScreen iframe {
+    width: 1024px;
+    height: 668px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.scene {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
