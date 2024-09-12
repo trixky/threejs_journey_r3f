@@ -4,7 +4,7 @@ My Implementations of each [R3F](https://r3f.docs.pmnd.rs/) (react three fiber) 
 
 <img src="https://raw.githubusercontent.com/trixky/threejs_journey_r3f/main/.demo/screenshots.gif" alt="Demo gif" width="600"/>
 
-> This project is [online](trixky.github.io/threejs_journey_r3f).
+> This project is [online](https://trixky.github.io/threejs_journey_r3f).
 
 # Setup
 
